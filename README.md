@@ -36,4 +36,3 @@ File principali
 - `Services/ConfigurationService.cs` — persistenza JSON (`config.json`)
 - `Models/EnvironmentVariable.cs`, `Models/ToolConfig.cs` — modelli dati
 
-Se vuoi, posso aggiungere un esempio di `config.json` commentato o fare un breve video/ GIF operativo della UI.
