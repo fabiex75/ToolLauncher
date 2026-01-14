@@ -1,0 +1,11 @@
+ClineProvider instantiated
+DEBUG No stored authentication data found
+Checking for legacy checkpoints...
+LOG Cline extension activated
+LOG BannerService: Fetching banners from https://api.cline.bot/banners/v1/messages?ide=vscode&extension_version=3.49.1&os=windows
+LOG BannerService: Fetching banners from https://api.cline.bot/banners/v1/messages?ide=vscode&extension_version=3.49.1&os=windows
+INFO TelemetryProviderFactory: Created providers - PostHogTelemetryProvider, OpenTelemetryProvider
+INFO TelemetryProviderFactory: Created providers - PostHogTelemetryProvider, OpenTelemetryProvider
+INFO TelemetryProviderFactory: Created providers - PostHogTelemetryProvider, OpenTelemetryProvider
+ERROR BannerService: Error fetching banners Request failed with status code 502
+ERROR BannerService: Error fetching banners Request failed with status code 502

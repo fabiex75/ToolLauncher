@@ -1,0 +1,10 @@
+LOG: aXet.plugin extension activated
+DEBUG: AutoUpdate.update, Starting update check...
+DEBUG: AutoUpdate.getCurrentVersion, Retrieved current extension version: 2.3.0
+DEBUG: AutoUpdate.fetchLatestVersionInfo, Base URL: "https://axetfiles.blob.core.windows.net/plugins/vscode"
+DEBUG: AutoUpdate.fetchLatestVersionInfo, Environment: "prod"
+DEBUG: AutoUpdate.fetchLatestVersionInfo, Constructed metadata URL: "https://axetfiles.blob.core.windows.net/plugins/vscode/metadata.json"
+axetProvider instantiated
+Checking for legacy checkpoints...
+INFO: AutoUpdate.fetchLatestVersionInfo, Metadata retrieved: version 2.3.0
+INFO: AutoUpdate.update, Extension is already up to date.

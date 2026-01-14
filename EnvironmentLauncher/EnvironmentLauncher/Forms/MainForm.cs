@@ -89,6 +89,8 @@ namespace EnvironmentLauncher
             gridTools.Columns.Add(new DataGridViewTextBoxColumn { DataPropertyName = "Arguments", HeaderText = "Argomenti", Width = 150 });
             gridTools.Columns.Add(new DataGridViewTextBoxColumn { DataPropertyName = "WorkingDirectory", HeaderText = "Working Dir", Width = 150 });
             gridTools.Columns.Add(new DataGridViewCheckBoxColumn { DataPropertyName = "UseEnvironment", HeaderText = "Usa Env", Width = 60 });
+            gridTools.Columns.Add(new DataGridViewTextBoxColumn { DataPropertyName = "ForceNewInstanceArguments", HeaderText = "Forza args (new inst.)", Width = 200 });
+            gridTools.Columns.Add(new DataGridViewCheckBoxColumn { DataPropertyName = "KillExistingInstances", HeaderText = "Uccidi istanze", Width = 80 });
 
             btnSaveTools = new Button { Text = "Salva Tool", AutoSize = true };
             var toolsPanelMain = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 1, RowCount = 2 };
@@ -345,7 +347,19 @@ namespace EnvironmentLauncher
 
                 if (!string.IsNullOrEmpty(found))
                 {
-                    config.Tools.Add(new ToolConfig { Name = k.name, ExecutablePath = found, Arguments = "", UseEnvironment = true });
+                    var tc = new ToolConfig { Name = k.name, ExecutablePath = found, Arguments = "", UseEnvironment = true };
+                    if (k.name.Contains("Visual Studio Code", StringComparison.OrdinalIgnoreCase))
+                    {
+                        tc.ForceNewInstanceArguments = "--user-data-dir \"%TEMP%\\vscode_profile_%USERNAME%\"";
+                    }
+                    else if (k.name.Contains("Visual Studio", StringComparison.OrdinalIgnoreCase))
+                    {
+                        // Visual Studio tends to be single-instance; prefer attempting a new instance via args when possible.
+                        // Do not kill existing instances automatically to avoid data loss.
+                        tc.ForceNewInstanceArguments = "";
+                    }
+
+                    config.Tools.Add(tc);
                 }
             }
 

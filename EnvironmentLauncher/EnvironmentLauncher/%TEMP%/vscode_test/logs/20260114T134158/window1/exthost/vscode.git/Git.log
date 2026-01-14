@@ -1,0 +1,8 @@
+2026-01-14 13:42:20.420 [info] [main] Log level: Info
+2026-01-14 13:42:20.420 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2026-01-14 13:42:20.420 [info] [main] Validating found git in: "C:\Program Files (x86)\Git\cmd\git.exe"
+2026-01-14 13:42:20.420 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2026-01-14 13:42:20.420 [info] [main] Validating found git in: "C:\Users\ESEPEFAIS\AppData\Local\Programs\Git\cmd\git.exe"
+2026-01-14 13:42:20.420 [info] [main] Using git "2.45.1.windows.1" from "C:\Users\ESEPEFAIS\AppData\Local\Programs\Git\cmd\git.exe"
+2026-01-14 13:42:20.420 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-14 13:42:20.420 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)

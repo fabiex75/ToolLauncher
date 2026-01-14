@@ -1,0 +1,6 @@
+2026-01-14 13:41:58.798 [error] Error: Error mutex already exists
+    at qu.S (file:///C:/Users/ESEPEFAIS/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:142:18405)
+2026-01-14 13:41:58.845 [info] update#setState idle
+2026-01-14 13:42:28.847 [info] update#setState checking for updates
+2026-01-14 13:42:28.903 [info] update#setState idle
+2026-01-14 13:43:13.358 [info] Extension host with pid 31980 exited with code: 0, signal: unknown.

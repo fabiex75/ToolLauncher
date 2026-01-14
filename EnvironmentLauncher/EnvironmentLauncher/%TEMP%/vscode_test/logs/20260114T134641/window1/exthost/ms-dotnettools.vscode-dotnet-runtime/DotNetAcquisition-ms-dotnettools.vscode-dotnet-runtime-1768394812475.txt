@@ -1,0 +1,93 @@
+1/14/2026, 1:46:52 PM 493 AutomaticUpdateCheck
+Checking for updates after 300000. Last Update Date: 1970-01-01T00:00:00.000Z. Current Date: 2026-01-14T12:46:52.476Z
+
+1/14/2026, 1:46:52 PM 494 AutomaticUpdateCheck
+Commencing updates at 1768394812494 in 300000 ms.
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.csharp for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.dotenv for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.mermaid-chat-features for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.prompt for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension mechatroner.rainbow-csv for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension ms-azuretools.vscode-containers for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.csdevkit for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.csharp for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.vscode-dotnet-modernize for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.vscode-dotnet-runtime for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension NTT-Data.axet-plugin for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension saoudrizwan.claude-dev for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.migrate-java-to-azure for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-gradle for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-debug for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-dependency for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-pack for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-test for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-upgrade for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-maven for .NET installation requests
+
+1/14/2026, 1:46:52 PM 497 DotnetVSCodeExtensionFound
+true
+Checking extension Vue.volar for .NET installation requests
+
+1/14/2026, 1:46:52 PM 498 DotnetVSCodeExtensionFound
+true
+Checking extension zcs.md-ppt for .NET installation requests

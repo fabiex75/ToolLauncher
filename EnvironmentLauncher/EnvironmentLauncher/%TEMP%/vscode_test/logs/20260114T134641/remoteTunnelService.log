@@ -1,0 +1,1 @@
+2026-01-14 13:46:46.004 [error] Could not parse status output: "Running tunnel CLI\nstatus Spawning: c:\\Users\\ESEPEFAIS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code-tunnel.exe tunnel status\nstatus exit(2780): + 0"

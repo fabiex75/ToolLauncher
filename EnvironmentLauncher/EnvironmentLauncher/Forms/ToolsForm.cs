@@ -65,6 +65,20 @@ namespace EnvironmentLauncher.Forms
                 Width = 60
             });
 
+            grid.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                DataPropertyName = "ForceNewInstanceArguments",
+                HeaderText = "Forza args (new inst.)",
+                Width = 200
+            });
+
+            grid.Columns.Add(new DataGridViewCheckBoxColumn
+            {
+                DataPropertyName = "KillExistingInstances",
+                HeaderText = "Uccidi istanze",
+                Width = 80
+            });
+
             btnSave.Text = "Salva";
             btnSave.Dock = DockStyle.Bottom;
 

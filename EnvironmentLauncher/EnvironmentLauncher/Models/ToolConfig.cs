@@ -15,6 +15,10 @@ namespace EnvironmentLauncher.Models
         public string WorkingDirectory { get; set; } = string.Empty;
         // If true, the configured environment variables will be applied when launching
         public bool UseEnvironment { get; set; } = true;
+        // If set, these arguments will be appended when attempting to force a new instance
+        public string ForceNewInstanceArguments { get; set; } = string.Empty;
+        // If true, kill existing running processes matching this executable before launching
+        public bool KillExistingInstances { get; set; } = false;
     }
 
 }
