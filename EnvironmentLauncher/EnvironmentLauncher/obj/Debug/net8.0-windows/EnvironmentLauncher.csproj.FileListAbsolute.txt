@@ -16,3 +16,4 @@ C:\projects\Varie\Launcher\EnvironmentLauncher\EnvironmentLauncher\obj\Debug\net
 C:\projects\Varie\Launcher\EnvironmentLauncher\EnvironmentLauncher\obj\Debug\net8.0-windows\EnvironmentLauncher.pdb
 C:\projects\Varie\Launcher\EnvironmentLauncher\EnvironmentLauncher\obj\Debug\net8.0-windows\EnvironmentLauncher.genruntimeconfig.cache
 C:\projects\Varie\Launcher\EnvironmentLauncher\EnvironmentLauncher\obj\Debug\net8.0-windows\ref\EnvironmentLauncher.dll
+C:\projects\Varie\Launcher\EnvironmentLauncher\EnvironmentLauncher\obj\Debug\net8.0-windows\EnvironmentLauncher.sourcelink.json
