@@ -1,0 +1,26 @@
+{
+  "EnvironmentVariables": [],
+  "Tools": [
+    {
+      "Name": "Visual Studio Code",
+      "ExecutablePath": "C:\\Users\\ESEPEFAIS\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+      "Arguments": "",
+      "WorkingDirectory": null,
+      "UseEnvironment": true
+    },
+    {
+      "Name": "Notepad\u002B\u002B",
+      "ExecutablePath": "C:\\Program Files\\Notepad\u002B\u002B\\notepad\u002B\u002B.exe",
+      "Arguments": "",
+      "WorkingDirectory": null,
+      "UseEnvironment": true
+    },
+    {
+      "Name": "Maven (bin)",
+      "ExecutablePath": "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2024.2.3\\plugins\\maven\\lib\\maven3\\bin\\mvn.cmd",
+      "Arguments": "",
+      "WorkingDirectory": null,
+      "UseEnvironment": true
+    }
+  ]
+}
