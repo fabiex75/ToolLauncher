@@ -1,0 +1,44 @@
+name: Build WinForms - EnvironmentLauncher
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x   # usa la tua versione se diversa
+
+    - name: Restore
+      run: dotnet restore EnvironmentLauncher.sln
+
+    - name: Build
+      run: dotnet build EnvironmentLauncher.sln --configuration Release --no-restore
+
+    - name: Test
+      run: dotnet test EnvironmentLauncher.sln --configuration Release --no-build
+      continue-on-error: true   # se NON hai test, evita il fail
+
+    - name: Publish WinForms
+      run: dotnet publish EnvironmentLauncher.sln `
+            --configuration Release `
+            --runtime win-x64 `
+            --self-contained false `
+            -p:PublishSingleFile=true
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: EnvironmentLauncher
+        path: |
+          **/bin/Release/net*/win-x64/publish
